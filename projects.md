@@ -2,8 +2,6 @@
 layout: page
 title: Projects
 subtitle: What's been eating away my free time
-comments: true
-carbonads: true
 recon-list:
   - name: distcrete
     desc: Discretized probability distributions.
