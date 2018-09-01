@@ -5,15 +5,28 @@ subtitle: What's been eating away my free time
 bigimg: /img/banners/devel.jpg
 project-list:
   - name: Big Cooking Data
-    desc: Recommender System, Data Analysis and Food
+    desc: Recommender System, Data Analysis, Food
     github: http://github.com/johan-gras/
     url: /projects/bigcookingdata
     website: /projects/bigcookingdata
     img: /img/projects/bigcookingdata.png
-  - name: earlyR
-    desc: Estimation of infectiousness in the early stage of an outbreak
-    github: http://github.com/reconhub/earlyR
-    url: http://www.repidemicsconsortium.org/earlyR/
+  - name: Gumstix Motion Tracking
+    desc: Real time motion tracking for on-board controller
+    github: https://github.com/johan-gras/Gumstix-Motion-Tracking
+    url: /projects/gumstix
+    website: /projects/gumstix
+    img: /img/projects/blue.png
+  - name: Indoor Tracking
+    desc: Tracking of people through time with image processing
+    github: https://github.com/johan-gras/Image-Processing-Stuff
+    url: /projects/indoortracking
+    website: /projects/indoortracking
+    img: /img/projects/blue.png
+  - name: Multiplayer Tower Defense
+    desc: To-do
+    github: https://github.com/johan-gras/Tower-Defense
+    url: /projects/towerdefense
+    website: /projects/towerdefense
     img: /img/projects/blue.png
 ---
 
