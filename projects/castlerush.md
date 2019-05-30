@@ -13,4 +13,11 @@ Two modes are available, the first is a survival mode while the latter is a mult
 
 # Game description
 
+Like any tower defense game, the goal is to defend your main base, while some enemy try to destroy it.
+
+Each game a new map is generated andarious blocs of elements are created at random : water, fire, rock, ice. Each element having special proprity on the monster's movements : blocking, slowing or sliding.
+
+Here, the enemy try to take the shortest path to invade your base, this is build on the A* algorithm.
+
+
 ![alt text](/img/projects/castlerush/1.png "Logo Title Text 1")
