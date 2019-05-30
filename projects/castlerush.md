@@ -11,7 +11,8 @@ Two modes are available, the first is a survival mode while the latter is a mult
 
 ![alt text](/img/projects/castlerush/menu.png "Logo Title Text 1")
 
-# Game description
+Game description
+======
 
 Like any tower defense game, the goal is to defend your main base, while some enemy try to destroy it.
 
@@ -26,13 +27,16 @@ You can purchase differents kinds of towers or monsters (if in multiplayer mode)
 ![alt text](/img/projects/castlerush/types2.png "Logo Title Text 1")
 ![alt text](/img/projects/castlerush/types3.png "Logo Title Text 1")
 
-## Survival mode
+Survival mode
+------
+
+### Survival mode
 
 This mode allow you to defend your base against multiple waves of stronger and stronger openents.
 The goal is simple : survive as long as you can.
 In order to survive, you can buy and place tower by purchasing and placing them.
 
-## Multiplayer mode
+### Multiplayer mode
 
 This mode allow you to play versus an other real player playing Castle Rush.
 One player host the game and the other connect by typing the host IP.
