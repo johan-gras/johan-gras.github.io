@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 subtitle: What's been eating away my free time
-bigimg: /img/banners/devel.jpg
+bigimg: ['/img/banners/devel.jpg']
 project-list:
   - name: Big Cooking Data
     desc: Recommender System, Data Analysis, Food
