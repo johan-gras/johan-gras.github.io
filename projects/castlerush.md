@@ -19,5 +19,7 @@ Each game a new map is generated andarious blocs of elements are created at rand
 
 Here, the enemy try to take the shortest path to invade your base, this is build on the A* algorithm.
 
+You can 
+
 
 ![alt text](/img/projects/castlerush/1.png "Logo Title Text 1")
