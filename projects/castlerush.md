@@ -21,7 +21,10 @@ Here, the enemy try to take the shortest path to invade your base, this is build
 ![alt text](/img/projects/castlerush/pathfinding.png "Logo Title Text 1")
 
 You can purchase differents kinds of towers or monsters (if in multiplayer mode) for a fixed amound of gold. Towers and monsters have differents characteristics such as raw damage, range, aoe, targeting priority, special effect (slowing, ghost monster, anti-ghost,...)
-![alt text](/img/projects/castlerush/types.png "Logo Title Text 1")
+
+![alt text](/img/projects/castlerush/types1.png "Logo Title Text 1")
+![alt text](/img/projects/castlerush/types2.png "Logo Title Text 1")
+![alt text](/img/projects/castlerush/types3.png "Logo Title Text 1")
 
 ## Survival mode
 
