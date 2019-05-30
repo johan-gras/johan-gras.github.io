@@ -22,12 +22,12 @@ project-list:
     url: /projects/indoortracking
     website: /projects/indoortracking
     img: /img/projects/blue.png
-  - name: Multiplayer Tower Defense
-    desc: To-do
-    github: https://github.com/johan-gras/Tower-Defense
-    url: /projects/towerdefense
-    website: /projects/towerdefense
-    img: /img/projects/blue.png
+  - name: Castle Rush
+    desc: Multiplayer Tower Defense,...
+    github: https://github.com/johan-gras/Castle-Rush
+    url: /projects/castlerush
+    website: /projects/castlerush
+    img: /img/projects/castlerush.png
 ---
 
 This is a collection of some personal projects I've worked on that are easily viewable online. Anything that is not browser-friendly will not make the cut :( 
