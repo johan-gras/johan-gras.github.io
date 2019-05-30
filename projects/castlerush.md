@@ -2,7 +2,7 @@
 layout: page
 title: Castle Rush
 subtitle: Not Your Typical Tower Defense
-bigimg: /img/banners/mixed-deepblue.png
+bigimg: /img/projects/castlerush/menu.png
 ---
 
 Blablabla c trop bien lolilol
