@@ -2,7 +2,7 @@
 layout: page
 title: Castle Rush
 subtitle: Not Your Typical Tower Defense
-bigimg: /img/projects/castlerush.png
+bigimg: /img/projects/castlerush/bigimage.png
 ---
 
 [Castle Rush](https://github.com/johan-gras/Castle-Rush) is a tower defense game made in **Java** with the **LibGDX framework**.

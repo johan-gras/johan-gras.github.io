@@ -23,7 +23,7 @@ project-list:
     website: /projects/indoortracking
     img: /img/projects/blue.png
   - name: Castle Rush
-    desc: Multiplayer Tower Defense,...
+    desc: A multiplayer medieval tower defense
     github: https://github.com/johan-gras/Castle-Rush
     url: /projects/castlerush
     website: /projects/castlerush
