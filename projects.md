@@ -18,7 +18,7 @@ project-list:
     img: /img/projects/blue.png
   - name: Indoor Tracking
     desc: Tracking of people through time with image processing
-    github: https://github.com/johan-gras/Image-Processing-Stuff
+    github: https://github.com/johan-gras/Indoor-Tracking
     url: /projects/indoortracking
     website: /projects/indoortracking
     img: /img/projects/blue.png
