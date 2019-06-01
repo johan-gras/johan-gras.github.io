@@ -17,3 +17,5 @@ The final part of the project was the implementation of *a multi-criteria tracki
 ![alt text](/img/projects/indoortracking/resultclean.gif "")
 ![alt text](/img/projects/indoortracking/resultmove.gif "")
 ![alt text](/img/projects/indoortracking/resultregion.gif "")
+
+![alt text](/img/projects/indoortracking/harison.ppm "")
