@@ -13,13 +13,13 @@ The final part of the project was the implementation of *a multi-criteria tracki
 	<video src="/img/projects/indoortracking/video.mp4" autoplay controls loop>Indoor Tracking Video</video>
 </div>
 
-![alt text](/img/projects/indoortracking/result.gif "")
+![alt text](/img/projects/indoortracking/result.gif "t")
 
-![alt text](/img/projects/indoortracking/resultclean.gif "")
+![alt text](/img/projects/indoortracking/resultclean.gif "t")
 
-![alt text](/img/projects/indoortracking/resultmove.gif "")
+![alt text](/img/projects/indoortracking/resultmove.gif "t")
 
-![alt text](/img/projects/indoortracking/resultregion.gif "")
+![alt text](/img/projects/indoortracking/resultregion.gif "t")
 
 
-![alt text](/img/projects/indoortracking/harison.ppm "")
+![alt text](/img/projects/indoortracking/harison.ppm "t")
