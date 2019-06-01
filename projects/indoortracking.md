@@ -5,7 +5,9 @@ subtitle: George Orwell knew it
 bigimg: /img/projects/castlerush/bigimage.png
 ---
 
-<video src="/img/projects/indoortracking/video.mp4" autoplay controls loop>text</video>
+<div style="text-align: center;">
+	<video src="/img/projects/indoortracking/video.mp4" autoplay controls loop>text</video>
+</div>
 
 
 [Castle Rush](https://github.com/johan-gras/Castle-Rush) is a tower defense game made in **Java** with the **LibGDX framework**.
