@@ -37,4 +37,4 @@ One player *host the game* and the other connect by *typing the host IP*, the co
 Each player start at random either by controlling *the invader* or *the defender*.
 The defender can build tower like in the survival mode, while the invader can *choose his wave of monsters*.
 
-![alt text](/img/projects/castlerush/screen.png "Logo Title Text 1")
+![alt text](/img/projects/castlerush/screen.png "Game Screen")
