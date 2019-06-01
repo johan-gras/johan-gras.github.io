@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Indoor Tracking
-subtitle: Not Your Typical Tower Defense
+subtitle: George Orwell knew it
 bigimg: /img/projects/castlerush/bigimage.png
 ---
 
-<video src="/img/projects/indoortracking/video.mp4" autoplay controls>text</video>
+<video src="/img/projects/indoortracking/video.mp4" autoplay controls loop>text</video>
 
 
 [Castle Rush](https://github.com/johan-gras/Castle-Rush) is a tower defense game made in **Java** with the **LibGDX framework**.
