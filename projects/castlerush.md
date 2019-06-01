@@ -13,16 +13,16 @@ Two modes are available, the first is a *survival mode* while the latter is a *m
 
 ## Game description
 
-Like any tower defense game, the goal is to *defend your main base* while some enemy *try to destroy it*. Each game, a new map is generated and *special blocs of map elements* are created at random : water, lava, rock, ice. Each element having *special proprity* on the monster's movements : blocking, slowing or sliding.
+Like any tower defense game, the goal is to *defend your main base* while some enemy *try to destroy it*. Each game, a new map is generated and *special blocs of map elements* are created at random : water, lava, rock, ice. Each element having *special propriety* on the monster's movements : blocking, slowing or sliding.
 
-Once a monster has spwawn on the map, he try to take *the shortest path* to invade your base, this mechanism is build onto **A* algorithm**.
-![alt text](/img/projects/castlerush/pathfinding.png "Logo Title Text 1")
+Once a monster has spwawn on the map, he try to take *the shortest path* to invade your base, this mechanism is build onto the **A* algorithm**.
+![alt text](/img/projects/castlerush/pathfinding.png"Monsters take the shortest path")
 
-You can purchase differents kinds of towers or monsters for a fixed amound of gold. Towers and monsters have *differents characteristics* such as raw damage, range, aoe, targeting priority, special effect (slowing, ghost monster, anti-ghost,...)
+You can purchase *different kinds of towers or monsters* for a fixed amount of gold. Towers and monsters have *different characteristics* such as damage, range, aoe, targeting priority, special effect (slowing, ghost monster, anti-ghost,...)
 
-![alt text](/img/projects/castlerush/types1.png "Logo Title Text 1")
-![alt text](/img/projects/castlerush/types2.png "Logo Title Text 1")
-![alt text](/img/projects/castlerush/types3.png "Logo Title Text 1")
+![alt text](/img/projects/castlerush/types1.png"Towers")
+![alt text](/img/projects/castlerush/types2.png"Monsters")
+![alt text](/img/projects/castlerush/types3.png"Characteristics")
 
 ### Survival mode
 
@@ -37,8 +37,4 @@ One player *host the game* and the other connect by *typing the host IP*, the co
 Each player start at random either by controlling *the invader* or *the defender*.
 The defender can build tower like in the survival mode, while the invader can choose his wave of monsters.
 
-![alt text](/img/projects/castlerush/2.png "Logo Title Text 1")
-
-![alt text](/img/projects/castlerush/3.png "Logo Title Text 1")
-
-![alt text](/img/projects/castlerush/4.png "Logo Title Text 1")
+![alt text](/img/projects/castlerush/screen.png"Logo Title Text 1")
