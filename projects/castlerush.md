@@ -5,7 +5,7 @@ subtitle: Not Your Typical Tower Defense
 bigimg: /img/projects/castlerush.png
 ---
 
-[Castle Rush](https://github.com/johan-gras/Castle-Rush)is a tower defense game build in **Java**.
+[Castle Rush](https://github.com/johan-gras/Castle-Rush) is a tower defense game build in **Java**.
 The *mediaval theme* is reflected ingame by both the music and the sprites.
 Two modes are available, the first is a *survival mode* while the latter is a *multiplayer battle*.
 
