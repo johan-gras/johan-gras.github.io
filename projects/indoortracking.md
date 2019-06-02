@@ -32,6 +32,9 @@ Two techniques, one on *temporal difference* of images and the second, on a diff
 More concretely, the first method is an absolute difference of images at the time t and t-1, then *threshold is applied* to detect the presence of movement.
 The latter method is doing the same absolute-threshold difference, but between the image of time t and a reference image. This reference image *needs to be as close as possible to the fixed background*, therefore, the *temporal mean* or *temporal median* image is used as the reference.
 
+![alt text](/img/projects/indoortracking/mean.png "Harris Corner Detector")
+![alt text](/img/projects/indoortracking/median.png "Harris Corner Detector")
+
 ### Image segmentation and region characterization
 Image segmentation is a range of techniques that assign labels to particular region of an image.
 Then, it is possible to extract statistics from each region (read: pixels with the same label).
@@ -42,7 +45,7 @@ A number of techniques are possible to the detection of interest points for subs
 A corner can be interpreted as the junction of two edges, where an edge is a sudden change in image brightness.
 Corners are the important features in the image, and they are generally termed as interest points which are invariant to translation, rotation and illumination.
 
-![alt text](/img/projects/indoortracking/harison.png "t")
+![alt text](/img/projects/indoortracking/harison.png "Harris Corner Detector")
 
 ## Multi-criteria tracking
 
