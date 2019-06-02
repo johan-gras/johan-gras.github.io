@@ -29,34 +29,21 @@ Those techniques allow to denoise...
 
 ### Movement detection
 Two techniques, one on *temporal difference* of images and the second, on a difference *with a reference*.
-More concretely, the first method is an absolute difference of images at the time t and t-1, then *threshold is applied* to detect the presence of movement.
-The latter method is doing the same absolute-threshold difference, but between the image of time t and a reference image. This reference image *needs to be as close as possible to the fixed background*, therefore, the *temporal mean* or *temporal median* image is used as the reference.
+More concretely, the first method is an absolute difference of images at the time t and t-1 of the sequence of image, then *threshold is applied* to detect the presence of movement.
+The latter method is doing the same absolute-threshold difference, but between the image of time t and a reference image. This reference image *needs to be as close as possible to the fixed background*, therefore, the *temporal mean* or *temporal median* image of the full sequence is used as the reference.
 
-![alt text](/img/projects/indoortracking/mean.png "Mean temporal filter")
-![alt text](/img/projects/indoortracking/median.png "Median temporal filter")
-*captin*
+<figure>
+  <img src="/img/projects/indoortracking/mean.png" alt="Mean temporal filter"/>
+  <img src="/img/projects/indoortracking/median.png" alt="Median temporal filter"/>
+  <figcaption>Mean (left) and median (right) temporal filter. The mean filter is sightly more noisy (red box) than the median's one.</figcaption>
+</figure>
 
 ### Image segmentation and region characterization
 Image segmentation is a range of techniques that assign labels to particular region of an image.
 Then, it is possible to extract statistics from each region (read: pixels with the same label).
 For each region is computed its : pixel size, barycentre, covariance matrix, main direction, mean gray level, means for each RGB component and gray histogram.
 
-<figure>
-  <img src="/img/projects/indoortracking/mean.png" alt="my alt text"/>
-  <img src="/img/projects/indoortracking/mean.png" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
-</figure>
-
 ### Interest point detection
-<figure>
-  <img src="/img/projects/indoortracking/mean.png" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
-</figure>
-<figure>
-  <img src="/img/projects/indoortracking/mean.png" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
-</figure>
-
 A number of techniques are possible to the detection of interest points for subsequent processing. In this project, the Harris method, a corner detection operator is implemented. 
 A corner can be interpreted as the junction of two edges, where an edge is a sudden change in image brightness.
 Corners are the important features in the image, and they are generally termed as interest points which are invariant to translation, rotation and illumination.
