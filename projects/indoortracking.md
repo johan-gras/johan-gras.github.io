@@ -31,10 +31,14 @@ The final part of the project was the implementation of *a multi-criteria tracki
 ### Movement detection
 Two techniques, one on *temporal difference* of images and the second, on a difference *with a reference*.
 More concretely, the first method is an absolute difference of images at the time t and t-1, then *threshold is applied* to detect the presence of movement.
-The latter method is doing the same absolute-threshold difference, but between the image of time t and a reference image. This reference image *needs to be as close as possible to the fixed background*. Therefore, the *temporal mean* or *temporal median* image is used as the reference.
+The latter method is doing the same absolute-threshold difference, but between the image of time t and a reference image. This reference image *needs to be as close as possible to the fixed background*, therefore, the *temporal mean* or *temporal median* image is used as the reference.
 
-
+### Image segmentation and region characterization
+Image segmentation is a range of techniques that assign labels to particular region of an image.
+Then, it is possible to extract statistics from each region (read: pixels with same label).
+For each region is computed its : pixel size, barycentre, co-variance matrix, main direction, RGB mean and grey histogram.
 
 
 ## Multi-criteria tracking
 
+(one can obtain binary image from a grey scale image, by applying a )
