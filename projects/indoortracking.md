@@ -79,11 +79,11 @@ A noisy binary image is obtained (the camera may be imperfect), thus we use a co
 The system use [our segmentation algorithm](#image-segmentation-and-region-characterization) and [characterized each labeled region](#image-segmentation-and-region-characterization).
 Then, for each image and each moving region, the characteristics are saved in a .json file to abstract some constraints of computation time.
 
-Once those pre-processing steps are done, the user can choose on the first frame the region (eg: a person) to be tracked during the full sequence. The algorithm now, need to choose the most likeliwood region in the subsequent frames. This is not trivial since images data are noisy even after some preprocessing.
+Once those pre-processing steps are made the user can choose on the first frame, the region (e.g.: a person) to be tracked during the full sequence. The algorithm now, need to choose the most likelihood region in the subsequent frames. This is not trivial, since image data are noisy even after some pre-processing.
 
-All the characteristics of the initial region are loaded.
-For every others frames, an innovative algorithm (read: a home made algorithm for the specific task) decided what is the most likeliwood region based on past information.
-In short the algorithm look at proximity of the choosed region on the last frame :
-- If there is only one region, this is the choosen one.
-- If there is no region, then we keep the focus on the last region, but warn the user about the momentary lost of tracking.
-- If there is multiple regions, then we need to solve conflicts. The region that has the most similar (L1 distance) statistics based on features such as the histogram, color average) to the previous tracked regions is selected.
+Then, all the characteristics of the initial region are loaded.
+For every other frames, an innovative algorithm (read: a home-made algorithm for the specific task) decided what the most likelihood region is based on past information.
+In short the algorithm look at the proximity of the chose region on the last frame :  
+- If there is only one region, this is the chosen one.
+- If there is no region, then we keep the focus on the last region, but warn the user of the momentary loss of tracking.
+- If there are multiple regions, then we need to solve conflicts. The region that has the most similar (L1 distance) statistics based on features such as the histogram, color average) to the previous tracked regions is selected.
