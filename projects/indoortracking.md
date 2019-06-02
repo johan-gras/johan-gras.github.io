@@ -64,14 +64,13 @@ A corner can be interpreted as *the junction of two edges*, where an edge is *a 
 
 ## Multi-criteria tracking system
 The final goal of this project was the implementation of **a multi-criteria tracking system**.
-What this fancy name even mean ~~you may ask~~ ? This *an end to end method*, that is where the **system** is comming from. The user of the method *can choose witch object to follow* during the complete sequence of images, that is for the **tracking**. And the computation that track this object is based on not one but *an ensemble of [to see] image processing techniques*, there you go with your **multi-criteria** !
+What this fancy name even mean ~~you may ask~~ ? This is *an end to end method*, that is where the **system** is coming from. The user of the method *can choose which object to follow* during the complete sequence of images, that is for the **tracking**. And the computation that tracks this object is based on not one but *an ensemble of [to see] image processing techniques*, there you go with your **multi-criteria** !
 
-### And what your tracking stuff is doing ?
-One can take a full sequence of images (based on a video).
-Our system is first going to compute the movement detection on each frames (using the second techique, with the median as reference).
-Then, we obtain a noisy binary image, therefore we use a combinaison of opening and closing to de-noisify the movement image.
-The system use our segmentation algorithm and characterized each labeled regions.
-For each images and each moving regions, the characteristics are saved in a .json file to abstract some constraints of computation time.
+### Ok, and what your tracking stuff is doing ?
+One can take a full sequence of images (based on a video), our system is first going to compute the movement detection on each frame (using the second technique, with the median as reference).
+Then, a noisy binary image is obtained, thus we use a combination of opening and closing to denoisify the movement image.
+The system use our segmentation algorithm and characterized each labeled region.
+For each image and each moving region, the characteristics are saved in a .json file to abstract some constraints of computation time.
 
 
 
