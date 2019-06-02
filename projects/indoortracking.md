@@ -39,9 +39,11 @@ The latter method is doing the same absolute-threshold difference, but between t
 	</figure>
 </div>
 
+## Section 1 ##
 ### Mathematical morphology operators
 *Erosion, dilation, opening and closing*, they are techniques for *the analysis and processing* of **geometrical structures** (read: discrete-binary images) based on the **theory of ensemble**.
 Those techniques allow to denoise...
+[Section 1](#section-1)
 
 ### Image segmentation and region characterization
 **Image segmentation** is a range of techniques that *assign labels to particular region of an image*.
