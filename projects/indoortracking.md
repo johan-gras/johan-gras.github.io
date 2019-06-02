@@ -23,12 +23,13 @@ The final part of the project was the implementation of *a multi-criteria tracki
 
 
 ## Image processing algorithms
-### Movement detection
+
+### Motion detection
 [Show image of TD image somewhere]
 
-Two techniques implements **the detection of movement**.
+Two techniques implements **the detection of motion**.
 One based on the **temporal difference** of images and the second on a **difference with a reference**.
-More concretely, the first method is *an absolute difference of images* at the time t and t-1 (of the sequence of image), then *threshold is applied* to detect *the presence of movement*.
+More concretely, the first method is *an absolute difference of images* at the time t and t-1 (of the sequence of image), then *threshold is applied* to detect *the presence of motion*.
 The latter method is doing the same absolute-threshold difference, but between the image of time t and *a reference image*. This reference image *needs to be as close as possible to the fixed background*, therefore, the *temporal mean* or *temporal median* image of the full sequence is used as the reference.
 
 <div style="text-align: center;">
@@ -39,11 +40,9 @@ The latter method is doing the same absolute-threshold difference, but between t
 	</figure>
 </div>
 
-## Section 2
 ### Mathematical morphology operators
 *Erosion, dilation, opening and closing*, they are techniques for *the analysis and processing* of **geometrical structures** (read: discrete-binary images) based on the **theory of ensemble**.
 Those techniques allow to denoise...
-[Section 1](#section-2)
 
 ### Image segmentation and region characterization
 **Image segmentation** is a range of techniques that *assign labels to particular region of an image*.
@@ -63,14 +62,21 @@ A corner can be interpreted as *the junction of two edges*, where an edge is *a 
 	</figure>
 </div>
 
-
 ## Multi-criteria tracking system
 The final goal of this project was the implementation of **a multi-criteria tracking system**.
 What this fancy name even mean ~~you may ask~~ ? This is *an end to end method*, that is where the **system** is coming from. The user of the method *can choose which object to follow* during the complete sequence of images, that is for the **tracking**. And the computation that tracks this object is based on not one but *an ensemble of [to see] image processing techniques*, there you go with your **multi-criteria** !
 
 ### Ok, and what your tracking stuff is doing ?
-One can take a full sequence of images (based on a video), our system is first going to compute the movement detection on each frame (using the second technique, with the median as reference).
-Then, a noisy binary image is obtained, thus we use a combination of opening and closing to denoisify the movement image.
+One can take a full sequence of images (based on a video), the system is first going [to compute the detection of motion](#motion-detection) on each frame (using our second technique, with the median as reference).
+
+<div style="text-align: center;">
+	<figure>
+	  <img src="/img/projects/indoortracking/resultmove.gif" alt="Harris Corner Detector"/>
+	  <figcaption>Blabla.</figcaption>
+	</figure>
+</div>
+
+Then, a noisy binary image is obtained, thus we use a combination of opening and closing to denoisify the motion image.
 The system use our segmentation algorithm and characterized each labeled region.
 For each image and each moving region, the characteristics are saved in a .json file to abstract some constraints of computation time.
 
