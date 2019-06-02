@@ -25,9 +25,13 @@ The final part of the project was the implementation of *a multi-criteria tracki
 ![alt text](/img/projects/indoortracking/harison.ppm "t")
 
 ## Image processing algorithms
-- Mathematical Morphology Operators : erosion, dilation, opening and closing. They are techniques technique for the analysis and processing of geometrical structures based on the theory of ensemble.
+- Mathematical morphology operators : erosion, dilation, opening and closing. They are techniques for the analysis and processing of geometrical structures based on the theory of ensemble.
 
-- Movement Detection : either based on a temporal difference of images or on a difference with a reference. The first, is an absolute difference of images at time $t$ and $t-1$, then a threshold is applied to detect the presence of movement. The latter, is doing the same absolute-thresholded difference between the image at time $t$ and a reference image. This reference image need to be as close as possible to the fixed background. Therefore, the temporal mean or temporal median image is used as the reference image.
+- Movement detection : either based on a temporal difference of images or on a difference with a reference.
+
+...The first, is an absolute difference of images at time $t$ and $t-1$, then a threshold is applied to detect the presence of movement.
+
+...The latter, is doing the same absolute-thresholded difference between the image at time $t$ and a reference image. This reference image need to be as close as possible to the fixed background. Therefore, the temporal mean or temporal median image is used as the reference image.
 
 
 ## Multi-criteria tracking
