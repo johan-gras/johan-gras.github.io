@@ -43,6 +43,7 @@ For each region is computed its : pixel size, barycentre, covariance matrix, mai
 
 <figure>
   <img src="/img/projects/indoortracking/mean.png" alt="my alt text"/>
+  <img src="/img/projects/indoortracking/mean.png" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
 </figure>
 
