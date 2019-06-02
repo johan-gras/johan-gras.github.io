@@ -13,15 +13,6 @@ The final part of the project was the implementation of *a multi-criteria tracki
 	<video src="/img/projects/indoortracking/video.mp4" autoplay controls loop>Indoor Tracking Video</video>
 </div>
 
-![alt text](/img/projects/indoortracking/result.gif "t")
-
-![alt text](/img/projects/indoortracking/resultclean.gif "t")
-
-![alt text](/img/projects/indoortracking/resultmove.gif "t")
-
-![alt text](/img/projects/indoortracking/resultregion.gif "t")
-
-
 ## Image processing algorithms
 
 ### Motion detection
@@ -88,6 +79,11 @@ A noisy binary image is obtained (the camera may be imperfect), thus we use a co
 The system use [our segmentation algorithm](#image-segmentation-and-region-characterization) and [characterized each labeled region](#image-segmentation-and-region-characterization).
 Then, for each image and each moving region, the characteristics are saved in a .json file to abstract some constraints of computation time.
 
+Once those pre-processing steps are done, the user can choose on the first frame the region (eg: a person) to be tracked during the full sequence. The algorithm now, need to choose the most likeliwood region in the subsequent frames. This is not trivial since images data are noisy even after some preprocessing.
 
-
-(one can obtain binary image from a grey scale image, by applying a )
+All the characteristics of the initial region are loaded.
+For every others frames, an innovative algorithm (read: a home made algorithm for the specific task) decided what is the most likeliwood region based on past information.
+In short the algorithm look at proximity of the choosed region on the last frame :
+- If there is only one region, this is the choosen one.
+- If there is no region, then we keep the focus on the last region, but warn the user about the momentary lost of tracking.
+- If there is multiple regions, then we need to solve conflicts. The region that has the most similar (L1 distance) statistics based on features such as the histogram, color average) to the previous tracked regions is selected.
