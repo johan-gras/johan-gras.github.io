@@ -56,12 +56,14 @@ A corner can be interpreted as *the junction of two edges*, where an edge is *a 
 
 <div style="text-align: center;">
 	<figure>
-	  <img src="/img/projects/indoortracking/hariss.png" alt="Harris Corner Detector"/>
+	  <img src="/img/projects/indoortracking/harris.png" alt="Harris Corner Detector"/>
 	  <figcaption>Points of interest based on the Harris Corner Detector.</figcaption>
 	</figure>
 </div>
 
 
 ## Multi-criteria tracking
+The final goal of this project was the implementation of **a multi-criteria tracking system**.
+What this fancy name even mean you may ask ? This an end to end method, that is where the *system* is comming from. The user of the method can choose witch object to follow during the complete sequence of images, that is for the *tracking*. And the computation that track this object is based on not one, but an ensemble of image processing techniques, there you go with your *multi-criteria* !
 
 (one can obtain binary image from a grey scale image, by applying a )
