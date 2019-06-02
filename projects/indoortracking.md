@@ -35,9 +35,13 @@ The latter method is doing the same absolute-threshold difference, but between t
 
 ### Image segmentation and region characterization
 Image segmentation is a range of techniques that assign labels to particular region of an image.
-Then, it is possible to extract statistics from each region (read: pixels with same label).
-For each region is computed its : pixel size, barycentre, co-variance matrix, main direction, RGB mean and grey histogram.
+Then, it is possible to extract statistics from each region (read: pixels with the same label).
+For each region is computed its : pixel size, barycentre, covariance matrix, main direction, mean gray level, means for each RGB component and gray histogram.
 
+### Interest point detection
+A number of technique are possible to the detection of interest points for subsequent processing. In this project, the Harris method, a corner detection operator is implemented. 
+A corner can be interpreted as the junction of two edges, where an edge is a sudden change in image brightness.
+Corners are the important features in the image, and they are generally termed as interest points which are invariant to translation, rotation and illumination.
 
 ## Multi-criteria tracking
 
