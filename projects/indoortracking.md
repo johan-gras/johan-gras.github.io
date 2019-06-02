@@ -22,11 +22,10 @@ The final part of the project was the implementation of *a multi-criteria tracki
 ![alt text](/img/projects/indoortracking/resultregion.gif "t")
 
 
-![alt text](/img/projects/indoortracking/harison.ppm "t")
-
 ## Image processing algorithms
 ### Mathematical morphology operators
 *Erosion, dilation, opening and closing*, they are techniques for the analysis and processing of *geometrical structures* (read: discrete-binary images) based on *the theory of ensemble*.
+Those techniques allow to denoise...
 
 ### Movement detection
 Two techniques, one on *temporal difference* of images and the second, on a difference *with a reference*.
@@ -42,6 +41,7 @@ For each region is computed its : pixel size, barycentre, covariance matrix, mai
 A number of technique are possible to the detection of interest points for subsequent processing. In this project, the Harris method, a corner detection operator is implemented. 
 A corner can be interpreted as the junction of two edges, where an edge is a sudden change in image brightness.
 Corners are the important features in the image, and they are generally termed as interest points which are invariant to translation, rotation and illumination.
+![alt text](/img/projects/indoortracking/harison.png "t")
 
 ## Multi-criteria tracking
 
