@@ -23,3 +23,10 @@ The final part of the project was the implementation of *a multi-criteria tracki
 
 
 ![alt text](/img/projects/indoortracking/harison.ppm "t")
+
+## Image processing algorithms
+- Mathematical Morphology Operators : erosion, dilation, opening and closing. They are techniques technique for the analysis and processing of geometrical structures based on the theory of ensemble.
+
+
+## Multi-criteria tracking
+
