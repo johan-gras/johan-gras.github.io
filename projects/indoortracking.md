@@ -42,7 +42,7 @@ Then, it is possible to extract statistics from each region (read: pixels with t
 For each region is computed its : pixel size, barycentre, covariance matrix, main direction, mean gray level, means for each RGB component and gray histogram.
 
 <figure>
-  <img src="{/img/projects/indoortracking/mean.png" alt="my alt text"/>
+  <img src="/img/projects/indoortracking/mean.png" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
 </figure>
 
