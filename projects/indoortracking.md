@@ -38,9 +38,10 @@ Then, it is possible to extract statistics from each region (read: pixels with t
 For each region is computed its : pixel size, barycentre, covariance matrix, main direction, mean gray level, means for each RGB component and gray histogram.
 
 ### Interest point detection
-A number of technique are possible to the detection of interest points for subsequent processing. In this project, the Harris method, a corner detection operator is implemented. 
+A number of techniques are possible to the detection of interest points for subsequent processing. In this project, the Harris method, a corner detection operator is implemented. 
 A corner can be interpreted as the junction of two edges, where an edge is a sudden change in image brightness.
 Corners are the important features in the image, and they are generally termed as interest points which are invariant to translation, rotation and illumination.
+
 ![alt text](/img/projects/indoortracking/harison.png "t")
 
 ## Multi-criteria tracking
