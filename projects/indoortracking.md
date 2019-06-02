@@ -24,13 +24,16 @@ The final part of the project was the implementation of *a multi-criteria tracki
 
 ## Image processing algorithms
 ### Mathematical morphology operators
-*Erosion, dilation, opening and closing*, they are techniques for the analysis and processing of *geometrical structures* (read: discrete-binary images) based on *the theory of ensemble*.
+*Erosion, dilation, opening and closing*, they are techniques for *the analysis and processing* of **geometrical structures** (read: discrete-binary images) based on the **theory of ensemble**.
 Those techniques allow to denoise...
 
 ### Movement detection
-Two techniques, one on *temporal difference* of images and the second, on a difference *with a reference*.
-More concretely, the first method is an absolute difference of images at the time t and t-1 of the sequence of image, then *threshold is applied* to detect the presence of movement.
-The latter method is doing the same absolute-threshold difference, but between the image of time t and a reference image. This reference image *needs to be as close as possible to the fixed background*, therefore, the *temporal mean* or *temporal median* image of the full sequence is used as the reference.
+[Show image of TD image somewhere]
+
+Two techniques implements *the detection of movement*.
+One based on the **temporal difference** of images and the second on a difference *with a reference*.
+More concretely, the first method is *an absolute difference of images* at the time t and t-1 (of the sequence of image), then *threshold is applied* to detect *the presence of movement*.
+The latter method is doing the same absolute-threshold difference, but between the image of time t and *a reference image*. This reference image *needs to be as close as possible to the fixed background*, therefore, the *temporal mean* or *temporal median* image of the full sequence is used as the reference.
 
 <div style="text-align: center;">
 	<figure>
@@ -41,14 +44,15 @@ The latter method is doing the same absolute-threshold difference, but between t
 </div>
 
 ### Image segmentation and region characterization
-Image segmentation is a range of techniques that assign labels to particular region of an image.
-Then, it is possible to extract statistics from each region (read: pixels with the same label).
-For each region is computed its : pixel size, barycentre, covariance matrix, main direction, mean gray level, means for each RGB component and gray histogram.
+**Image segmentation** is a range of techniques that *assign labels to particular region of an image*.
+Then, it is possible to *extract statistics* from each region (read: pixels with the same label).
+Therefore, for each region is computed its : pixel size, barycentre, covariance matrix, main direction, mean gray level, means for each RGB component and gray histogram.
 
 ### Interest point detection
-A number of techniques are possible to the detection of interest points for subsequent processing. In this project, the Harris method, a corner detection operator is implemented. 
-A corner can be interpreted as the junction of two edges, where an edge is a sudden change in image brightness.
-Corners are the important features in the image, and they are generally termed as interest points which are invariant to translation, rotation and illumination.
+A number of techniques are possible to the **detection of interest points** (used for subsequent processing).
+In this project, the **Harris method** a *corner detection operator* is implemented. 
+A corner can be interpreted as *the junction of two edges*, where an edge is *a sudden change in image brightness*.
+*Corners are the important features* in the image, and they are generally termed as interest points which are invariant to translation, rotation and illumination.
 
 ![alt text](/img/projects/indoortracking/harison.png "Harris Corner Detector")
 *caption iofeijoefj foijezfjziefo feio*
