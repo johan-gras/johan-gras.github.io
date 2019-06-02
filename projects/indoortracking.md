@@ -41,12 +41,18 @@ Image segmentation is a range of techniques that assign labels to particular reg
 Then, it is possible to extract statistics from each region (read: pixels with the same label).
 For each region is computed its : pixel size, barycentre, covariance matrix, main direction, mean gray level, means for each RGB component and gray histogram.
 
+<figure>
+  <img src="{/img/projects/indoortracking/mean.png" alt="my alt text"/>
+  <figcaption>This is my caption text.</figcaption>
+</figure>
+
 ### Interest point detection
 A number of techniques are possible to the detection of interest points for subsequent processing. In this project, the Harris method, a corner detection operator is implemented. 
 A corner can be interpreted as the junction of two edges, where an edge is a sudden change in image brightness.
 Corners are the important features in the image, and they are generally termed as interest points which are invariant to translation, rotation and illumination.
 
 ![alt text](/img/projects/indoortracking/harison.png "Harris Corner Detector")
+*caption iofeijoefj foijezfjziefo feio*
 
 ## Multi-criteria tracking
 
