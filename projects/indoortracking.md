@@ -43,12 +43,20 @@ For each region is computed its : pixel size, barycentre, covariance matrix, mai
 
 <figure>
   <img src="/img/projects/indoortracking/mean.png" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
   <img src="/img/projects/indoortracking/mean.png" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
 </figure>
 
 ### Interest point detection
+<figure>
+  <img src="/img/projects/indoortracking/mean.png" alt="my alt text"/>
+  <figcaption>This is my caption text.</figcaption>
+</figure>
+<figure>
+  <img src="/img/projects/indoortracking/mean.png" alt="my alt text"/>
+  <figcaption>This is my caption text.</figcaption>
+</figure>
+
 A number of techniques are possible to the detection of interest points for subsequent processing. In this project, the Harris method, a corner detection operator is implemented. 
 A corner can be interpreted as the junction of two edges, where an edge is a sudden change in image brightness.
 Corners are the important features in the image, and they are generally termed as interest points which are invariant to translation, rotation and illumination.
