@@ -71,14 +71,22 @@ One can take a full sequence of images (based on a video), the system is first g
 
 <div style="text-align: center;">
 	<figure>
-	  <img src="/img/projects/indoortracking/resultmove.gif" alt="Harris Corner Detector"/>
-	  <figcaption>Blabla.</figcaption>
+	  <img src="/img/projects/indoortracking/resultmove.gif" alt="Sequence of binary motion images"/>
+	  <figcaption>Sequence of binary motion images.</figcaption>
 	</figure>
 </div>
 
-Then, a noisy binary image is obtained, thus we use a combination of opening and closing to denoisify the motion image.
-The system use our segmentation algorithm and characterized each labeled region.
-For each image and each moving region, the characteristics are saved in a .json file to abstract some constraints of computation time.
+A noisy binary image is obtained (the camera may be imperfect), thus we use a combination of [opening and closing](#mathematical-morphology-operators) to denoisify the  motion images' sequence.
+
+<div style="text-align: center;">
+	<figure>
+	  <img src="/img/projects/indoortracking/resultclean.gif" alt="Sequence of denoisify images"/>
+	  <figcaption>Sequence of denoisify images.</figcaption>
+	</figure>
+</div>
+
+The system use [our segmentation algorithm](#image-segmentation-and-region-characterization) and [characterized each labeled region](#image-segmentation-and-region-characterization).
+Then, for each image and each moving region, the characteristics are saved in a .json file to abstract some constraints of computation time.
 
 
 
