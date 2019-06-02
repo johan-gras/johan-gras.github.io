@@ -23,10 +23,6 @@ The final part of the project was the implementation of *a multi-criteria tracki
 
 
 ## Image processing algorithms
-### Mathematical morphology operators
-*Erosion, dilation, opening and closing*, they are techniques for *the analysis and processing* of **geometrical structures** (read: discrete-binary images) based on the **theory of ensemble**.
-Those techniques allow to denoise...
-
 ### Movement detection
 [Show image of TD image somewhere]
 
@@ -43,9 +39,13 @@ The latter method is doing the same absolute-threshold difference, but between t
 	</figure>
 </div>
 
+### Mathematical morphology operators
+*Erosion, dilation, opening and closing*, they are techniques for *the analysis and processing* of **geometrical structures** (read: discrete-binary images) based on the **theory of ensemble**.
+Those techniques allow to denoise...
+
 ### Image segmentation and region characterization
 **Image segmentation** is a range of techniques that *assign labels to particular region of an image*.
-Then, it is possible to *extract statistics* from **each region** (read: pixels with the same label).
+Then, it is possible to **extract characteristics** from *each region* (read: pixels with the same label).
 Therefore, for each region is computed its : pixel size, barycentre, covariance matrix, main direction, mean gray level, means for each RGB component and gray histogram.
 
 ### Interest point detection
@@ -62,8 +62,17 @@ A corner can be interpreted as *the junction of two edges*, where an edge is *a 
 </div>
 
 
-## Multi-criteria tracking
+## Multi-criteria tracking system
 The final goal of this project was the implementation of **a multi-criteria tracking system**.
-What this fancy name even mean ~~you may ask~~ ? This *an end to end method*, that is where the **system** is comming from. The user of the method *can choose witch object to follow* during the complete sequence of images, that is for the **tracking**. And the computation that track this object is based on not one but *an ensemble of image processing techniques*, there you go with your **multi-criteria** !
+What this fancy name even mean ~~you may ask~~ ? This *an end to end method*, that is where the **system** is comming from. The user of the method *can choose witch object to follow* during the complete sequence of images, that is for the **tracking**. And the computation that track this object is based on not one but *an ensemble of [to see] image processing techniques*, there you go with your **multi-criteria** !
+
+### And what your tracking stuff is doing ?
+One can take a full sequence of images (based on a video).
+Our system is first going to compute the movement detection on each frames (using the second techique, with the median as reference).
+Then, we obtain a noisy binary image, therefore we use a combinaison of opening and closing to de-noisify the movement image.
+The system use our segmentation algorithm and characterized each labeled regions.
+For each images and each moving regions, the characteristics are saved in a .json file to abstract some constraints of computation time.
+
+
 
 (one can obtain binary image from a grey scale image, by applying a )
