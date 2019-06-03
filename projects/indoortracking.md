@@ -40,6 +40,15 @@ Those techniques allow to denoise...
 Then, it is possible to **extract characteristics** from *each region* (read: pixels with the same label).
 Therefore, for each region is computed its : pixel size, barycentre, covariance matrix, main direction, mean gray level, means for each RGB component and gray histogram.
 
+<div style="text-align: center;">
+	<figure>
+	  <img src="/img/projects/indoortracking/rice.png" alt="Rice : grey image"/>
+	  <img src="/img/projects/indoortracking/ricebinary.png" alt="Rice : binary image"/>
+	  <img src="/img/projects/indoortracking/ricelabel.png" alt="Rice : labeled image"/>
+	  <figcaption>Sequence of denoisify images.</figcaption>
+	</figure>
+</div>
+
 ### Interest point detection
 A number of techniques are possible to the **detection of interest points** (used for subsequent processing).
 In this project, the **Harris method** a *corner detection operator* is implemented. 
