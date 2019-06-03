@@ -58,7 +58,7 @@ The final goal of this project was the implementation of **a multi-criteria trac
 What this fancy name even mean ~~you may ask~~ ? This is *an end to end method*, that is where the **system** is coming from. The user of the method *can choose which object to follow* during the complete sequence of images, that is for the **tracking**. And the computation that tracks this object is based on not one but *an ensemble of [to see] image processing techniques*, there you go with your **multi-criteria** !
 
 ### Ok, and what your tracking stuff is doing ?
-One can take a full sequence of images (based on a video), the system is first going [to compute the detection of motion](#motion-detection) on each frame (using our second technique, with the median as reference).
+One can take *a full sequence of images* (based on a video), the system is first going [to compute the detection of motion](#motion-detection) on each frame (using our second technique, with the median as reference).
 
 <div style="text-align: center;">
 	<figure>
@@ -67,7 +67,7 @@ One can take a full sequence of images (based on a video), the system is first g
 	</figure>
 </div>
 
-A noisy binary image is obtained (the camera may be imperfect), thus we use a combination of [opening and closing](#mathematical-morphology-operators) to denoisify the  motion images' sequence.
+A *noisy binary image* is obtained (the camera may be imperfect), thus we use a combination of [opening and closing](#mathematical-morphology-operators) *to denoisify* the motion images' sequence.
 
 <div style="text-align: center;">
 	<figure>
@@ -87,3 +87,12 @@ In short the algorithm look at the proximity of the chose region on the last fra
 - If there is only one region, this is the chosen one.
 - If there is no region, then we keep the focus on the last region, but warn the user of the momentary loss of tracking.
 - If there are multiple regions, then we need to solve conflicts. The region that has the most similar (L1 distance) statistics based on features such as the histogram, color average) to the previous tracked regions is selected.
+
+<div style="text-align: center;">
+	<figure>
+	  <img src="/img/projects/indoortracking/tracking1.png" alt="Tracking 1"/>
+	  <img src="/img/projects/indoortracking/tracking2.png" alt="Tracking 2"/>
+	  <img src="/img/projects/indoortracking/tracking3.png" alt="Tracking 3"/>
+	  <figcaption>Sequence of denoisify images.</figcaption>
+	</figure>
+</div>
