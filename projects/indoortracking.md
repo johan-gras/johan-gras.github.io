@@ -86,7 +86,7 @@ For every other frames, an innovative algorithm (read: a home-made algorithm for
 In short the algorithm look at the proximity of the chose region on the last frame :  
 - If there is only one region, this is the chosen one.
 - If there is no region, then we keep the focus on the last region, but warn the user of the momentary loss of tracking.
-- If there are multiple regions, then we need to solve conflicts. The region that has the most similar (L1 distance) statistics based on features such as the histogram, color average) to the previous tracked regions is selected.
+- If there are multiple regions, then we need to solve conflicts. The region that has to the previous tracked regions the most similar (L1 distance) statistics, based on features such as the histogram and color average is selected.
 
 <div style="text-align: center;">
 	<figure>
