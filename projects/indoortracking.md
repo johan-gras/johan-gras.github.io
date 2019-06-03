@@ -45,7 +45,7 @@ Therefore, for each region is computed its : pixel size, barycentre, covariance 
 	  <img src="/img/projects/indoortracking/rice.png" alt="Rice : grey image"/>
 	  <img src="/img/projects/indoortracking/ricebinary.png" alt="Rice : binary image"/>
 	  <img src="/img/projects/indoortracking/ricelabel.png" alt="Rice : labeled image"/>
-	  <figcaption>Sequence of denoisify images.</figcaption>
+	  <figcaption>Exemple of image segmentation. Right: grey image of rice. Middle: binarized image. Left: labeled image.</figcaption>
 	</figure>
 </div>
 
