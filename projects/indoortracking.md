@@ -35,6 +35,13 @@ The latter method is doing the same absolute-threshold difference, but between t
 *Erosion, dilation, opening and closing*, they are techniques for *the analysis and processing* of **geometrical structures** (read: discrete-binary images) based on the **theory of ensemble**.
 Those techniques allow to denoise...
 
+<div style="text-align: center;">
+	<figure>
+	  <img src="/img/projects/indoortracking/opening.gif" alt="Rice : grey image"/>
+	  <figcaption>Opening operation.</figcaption>
+	</figure>
+</div>
+
 ### Image segmentation and region characterization
 **Image segmentation** is a range of techniques that *assign labels to particular region of an image*.
 Then, it is possible to **extract characteristics** from *each region* (read: pixels with the same label).
@@ -45,7 +52,7 @@ Therefore, for each region is computed its : pixel size, barycentre, covariance 
 	  <img src="/img/projects/indoortracking/rice.png" alt="Rice : grey image"/>
 	  <img src="/img/projects/indoortracking/ricebinary.png" alt="Rice : binary image"/>
 	  <img src="/img/projects/indoortracking/ricelabel.png" alt="Rice : labeled image"/>
-	  <figcaption>Exemple of image segmentation. Right: grey image of rice. Middle: binarized image. Left: labeled image.</figcaption>
+	  <figcaption>Exemple of image segmentation. Right: grey image of rice. Middle: binarized image. Left: labelized region and converted in greyscale.</figcaption>
 	</figure>
 </div>
 
