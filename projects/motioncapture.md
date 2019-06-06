@@ -11,12 +11,19 @@ A GUI application on a remote computer **let you observe the motion in real time
 
 <div style="text-align: center;">
 	<figure>
-	  <img src="/img/projects/motioncapture/gumstix.png" alt=""/>
-	  <img src="/img/projects/motioncapture/cercle.jpeg" alt=""/>
+	  <img src="/img/projects/motioncapture/gui.jpeg" alt="GUI application"/>
 	</figure>
 </div>
 
-## Introduction
+## Overview
+
+**Hardware:** this project is build apon a [Gumstix Overo Airstorm](https://store.gumstix.com/coms/overo-coms/overo-airstorm-y-com.html) and an [extension card](https://store.gumstix.com/development-boards/gallop43.html) (accelerometer) and [Linux Angström](http://www.angstrom-distribution.org/)
+
+
+
+<p></p>
+<p></p>
+<p></p>
 
 ## Technical choices and implementation
 
