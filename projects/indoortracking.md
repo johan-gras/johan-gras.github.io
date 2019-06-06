@@ -48,8 +48,8 @@ Those techniques allow to denoise (salt noise for example) binary images.
 </div>
 
 ### Image segmentation and region characterization
-**Image segmentation** in conjunction with **region characterisation** algorithms are implemented.
-The first is a range of techniques that *assign labels to particular region of an image*.
+**Image segmentation** algorithms in conjunction with **region characterization** are implemented.
+Image segmentation is a range of techniques that *assign labels to particular region of an image*.
 Then, it is possible to **extract characteristics** from *each region* (read: pixels with the same label).
 Therefore, for each region is computed its : pixel size, barycentre, covariance matrix, main direction, mean gray level, means for each RGB component and gray histogram.
 
@@ -63,7 +63,6 @@ Therefore, for each region is computed its : pixel size, barycentre, covariance 
 </div>
 
 ### Interest point detection
-my techiques...
 A number of techniques are possible to the **detection of interest points** (used for subsequent processing).
 In this project, the **Harris method** a *corner detection operator* is implemented. 
 A corner can be interpreted as *the junction of two edges*, where an edge is *a sudden change in image brightness*.
@@ -78,7 +77,7 @@ A corner can be interpreted as *the junction of two edges*, where an edge is *a 
 
 ## Multi-criteria tracking system
 The final goal of this project was the implementation of **a multi-criteria tracking system**.
-What this fancy name even mean ~~you may ask~~ ? This is *an end to end method*, that is where the **system** is coming from. The user of the method *can choose which object to follow* during the complete sequence of images, that is for the **tracking**. And the computation that tracks this object is based on not one but *an ensemble of [to see] image processing techniques*, there you go with your **multi-criteria** !
+What this fancy name even mean ~~you may ask~~ ? This is *an end to end method*, that is where the **system** is coming from. The user of the method *can choose which object to follow* during the complete sequence of images, that is for the **tracking**. And the computation that tracks this object is based on not one but *an ensemble of image processing techniques*, there you go with your **multi-criteria** !
 
 ### Ok, and what your tracking stuff is doing ?
 One can take *a full sequence of images* (based on a video), the system is first going [to compute the detection of motion](#motion-detection) on each frame (using our second technique, with the median as reference).
@@ -100,16 +99,15 @@ A *noisy binary image* is obtained (the camera may be imperfect), thus we use a 
 </div>
 
 The system use [our segmentation algorithm](#image-segmentation-and-region-characterization) and [characterized each labeled region](#image-segmentation-and-region-characterization).
-Then, for each image and each moving region, the characteristics are saved in a .json file to abstract some constraints of computation time.
+Then, for each image and each moving region, the characteristics are saved in a **.json file** to *abstract some constraints of computation time*.
+Once those pre-processing steps are made, *the user can choose* on the first frame *the region (e.g.: a person) to be tracked* during the full sequence. The algorithm now, need to choose **the most likelihood regions in the subsequent frames**. *This is not trivial*, since image data are noisy even after some pre-processing.
 
-Once those pre-processing steps are made the user can choose on the first frame, the region (e.g.: a person) to be tracked during the full sequence. The algorithm now, need to choose the most likelihood region in the subsequent frames. This is not trivial, since image data are noisy even after some pre-processing.
-
-Then, all the characteristics of the initial region are loaded.
-For every other frames, an innovative algorithm (read: a home-made algorithm for the specific task) decided what the most likelihood region is based on past information.
-In short the algorithm look at the proximity of the chose region on the last frame :  
-- If there is only one region, this is the chosen one.
-- If there is no region, then we keep the focus on the last region, but warn the user of the momentary loss of tracking.
-- If there are multiple regions, then we need to solve conflicts. The region that has to the previous tracked regions the most similar (L1 distance) statistics, based on features such as the histogram and color average is selected.
+All the characteristics of the initial region are loaded.
+For every other frames, *an innovative algorithm* (note: glorifiying my home-made algorithm) decided what the most likelihood region is, based on past information.
+In short *the algorithm look at the proximity of the chose region on the last frame* :  
+- If **there is only one region**, this is the chosen one.
+- If **there is no region**, then we keep the focus on the last region, but warn the user of the momentary loss of tracking.
+- If **there are multiple regions**, then we need to solve conflicts. The region that has to the previous tracked regions the most similar statistics (L1 distance) based on features such as the histogram and color average, is selected.
 
 <p></p>
 <div style="text-align: center;">
