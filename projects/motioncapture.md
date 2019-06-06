@@ -44,7 +44,7 @@ A GUI application on a remote computer **let you observe the motion in real time
 
 ### Recovering accelerometer data
 
-**Accelerometer data are saved in specific register, thus we need to recover them from the [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) communication bus.**
+**Accelerometer data are saved in specific register**, thus we need to recover them from the [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) communication bus.
 Functions from the manufacturer are already available to do this job, but the code is large, complex and with multiple dependencies.
 Therefore, I've significantly **reduced the code** to do exactly what we needed and **speed up the performance**.
 
