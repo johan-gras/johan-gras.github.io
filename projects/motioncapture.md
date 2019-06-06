@@ -48,7 +48,7 @@ A GUI application on a remote computer let you observe the motion in real time.
 Functions from the manufacturer are already available to do this job, but the code is large, complex and with multiple dependencies.
 Therefore, I've significantly **reduced the code** to do exactly what we needed and **speed up the performance**.
 
-### Computing the position of the Gumstix
+### Computing the position
 
 To compute the position from acceleration, one can take the mathematical relation between the two:
 **by doing a double integral onto the acceleration signal, the relative position may be obtained**.
