@@ -51,7 +51,7 @@ Therefore, I've significantly **reduced the code** to do exactly what we needed 
 ### Computing the position of the Gumstix
 
 To compute the position from acceleration, one can take the mathematical relation between the two:
-by doing a double integral onto the acceleration signal the relative position may be obtained.
+**by doing a double integral onto the acceleration signal, the relative position may be obtained**.
 
 <div style="text-align: center;">
 	<figure>
@@ -59,6 +59,14 @@ by doing a double integral onto the acceleration signal the relative position ma
 	  <figcaption>From acceleration to relative position.</figcaption>
 	</figure>
 </div>
+
+*Sadly, reality is not as perfect as theory...*
+
+First, the acceleration signal is not continuous but discretized.
+Second, data are noisy in many ways due to the sensor imperfection.
+Therefore, positions that we could obtain would be horrible.
+Different techniques are applied to partially correct existing incertitudes.
+
 
 ### Communication
 
