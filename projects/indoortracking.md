@@ -16,8 +16,6 @@ The final part of the project was the implementation of *a multi-criteria tracki
 ## Image processing algorithms
 
 ### Motion detection
-[Show image of TD image somewhere]
-
 Two techniques implements **the detection of motion**.
 One based on the **temporal difference** of images and the second on a **difference with a reference**.
 More concretely, the first method is *an absolute difference of images* at the time t and t-1 (of the sequence of image), then *threshold is applied* to detect *the presence of motion*.
@@ -33,17 +31,25 @@ The latter method is doing the same absolute-threshold difference, but between t
 
 ### Mathematical morphology operators
 *Erosion, dilation, opening and closing*, they are techniques for *the analysis and processing* of **geometrical structures** (read: discrete-binary images) based on the **theory of ensemble**.
-Those techniques allow to denoise...
+Those techniques allow to denoise (salt noise for example) binary images.
 
 <div style="text-align: center;">
 	<figure>
 	  <img src="/img/projects/indoortracking/opening.gif" alt="Rice : grey image"/>
-	  <figcaption>Opening operation.</figcaption>
+	  <figcaption>Opening operation: combinaison of an erosion followed by a dilation.</figcaption>
+	</figure>
+</div>
+
+<div style="text-align: center;">
+	<figure>
+	  <img src="/img/projects/indoortracking/closing.gif" alt="Rice : grey image"/>
+	  <figcaption>Closing operation: combinaison of a dilatation followed by a erosion.</figcaption>
 	</figure>
 </div>
 
 ### Image segmentation and region characterization
-**Image segmentation** is a range of techniques that *assign labels to particular region of an image*.
+**Image segmentation** in conjunction with **region characterisation** algorithms are implemented.
+The first is a range of techniques that *assign labels to particular region of an image*.
 Then, it is possible to **extract characteristics** from *each region* (read: pixels with the same label).
 Therefore, for each region is computed its : pixel size, barycentre, covariance matrix, main direction, mean gray level, means for each RGB component and gray histogram.
 
@@ -57,6 +63,7 @@ Therefore, for each region is computed its : pixel size, barycentre, covariance 
 </div>
 
 ### Interest point detection
+my techiques...
 A number of techniques are possible to the **detection of interest points** (used for subsequent processing).
 In this project, the **Harris method** a *corner detection operator* is implemented. 
 A corner can be interpreted as *the junction of two edges*, where an edge is *a sudden change in image brightness*.
@@ -104,6 +111,7 @@ In short the algorithm look at the proximity of the chose region on the last fra
 - If there is no region, then we keep the focus on the last region, but warn the user of the momentary loss of tracking.
 - If there are multiple regions, then we need to solve conflicts. The region that has to the previous tracked regions the most similar (L1 distance) statistics, based on features such as the histogram and color average is selected.
 
+<p></p>
 <div style="text-align: center;">
 	<figure>
 	  <img src="/img/projects/indoortracking/tracking1.png" alt="Tracking 1"/>
