@@ -35,7 +35,7 @@ A GUI application on a remote computer **let you observe the motion in real time
 
 <div style="text-align: center;">
 	<figure>
-	  <img src="/img/projects/motioncapture/overview.jpg" alt="Overview of the architecture."/>
+	  <img src="/img/projects/motioncapture/overview.png" alt="Overview of the architecture."/>
 	  <figcaption>Overview of the architecture.</figcaption>
 	</figure>
 </div>
