@@ -2,7 +2,7 @@
 layout: page
 title: Indoor Tracking
 subtitle: George Orwell knew it !
-bigimg: /img/projects/indoortracking/bigimage.png
+bigimg: /img/projects/indoortracking/bigimage.jpg
 ---
 
 [Indoor Tracking](https://github.com/johan-gras/Indoor-Tracking) is an *image processing* project made in **C**.
@@ -35,14 +35,7 @@ Those techniques allow to denoise (salt noise for example) binary images.
 
 <div style="text-align: center;">
 	<figure>
-	  <img src="/img/projects/indoortracking/opening.gif" alt="Rice : grey image"/>
-	  <figcaption>Opening operation: combinaison of an erosion followed by a dilation.</figcaption>
-	</figure>
-</div>
-
-<div style="text-align: center;">
-	<figure>
-	  <img src="/img/projects/indoortracking/closing.gif" alt="Rice : grey image"/>
+	  <img src="/img/projects/indoortracking/closing.gif" alt="Closing operation"/>
 	  <figcaption>Closing operation: combinaison of a dilatation followed by a erosion.</figcaption>
 	</figure>
 </div>
@@ -103,7 +96,7 @@ Then, for each image and each moving region, the characteristics are saved in a 
 Once those pre-processing steps are made, *the user can choose* on the first frame *the region (e.g.: a person) to be tracked* during the full sequence. The algorithm now, need to choose **the most likelihood regions in the subsequent frames**. *This is not trivial*, since image data are noisy even after some pre-processing.
 
 All the characteristics of the initial region are loaded.
-For every other frames, *an innovative algorithm* (note: glorifiying my home-made algorithm) decided what the most likelihood region is, based on past information.
+For every other frames, *an innovative algorithm* (note: glorifying my home-made algorithm) decided what the most likelihood region is, based on past information.
 In short *the algorithm look at the proximity of the chose region on the last frame* :  
 - If **there is only one region**, this is the chosen one.
 - If **there is no region**, then we keep the focus on the last region, but warn the user of the momentary loss of tracking.
@@ -115,6 +108,6 @@ In short *the algorithm look at the proximity of the chose region on the last fr
 	  <img src="/img/projects/indoortracking/tracking1.png" alt="Tracking 1"/>
 	  <img src="/img/projects/indoortracking/tracking2.png" alt="Tracking 2"/>
 	  <img src="/img/projects/indoortracking/tracking3.png" alt="Tracking 3"/>
-	  <figcaption>**Limits of the tracking system.** Here, the algorithm eventually loses track of the good region (image 2). Hopefully, some frames latter (image 3) the algorithm got back to track with the help of the statistics comparison between conflicting region.</figcaption>
+	  <figcaption>Limits of the tracking system. Here, the algorithm eventually loses track of the good region (image 2). Hopefully, some frames latter (image 3) the algorithm got back to track with the help of the statistics comparison between conflicting region.</figcaption>
 	</figure>
 </div>
