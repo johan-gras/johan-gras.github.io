@@ -10,11 +10,11 @@ project-list:
     url: /projects/bigcookingdata
     website: /projects/bigcookingdata
     img: /img/projects/bigcookingdata.png
-  - name: Gumstix Motion Tracking
-    desc: Real-time motion tracking for on-board controller
-    github: https://github.com/johan-gras/Gumstix-Motion-Tracking
-    url: /projects/gumstix
-    website: /projects/gumstix
+  - name: Motion Capture
+    desc: Real-time motion capture using a Gumstix controller
+    github: https://github.com/johan-gras/Motion-Capture
+    url: /projects/motioncapture
+    website: /projects/motioncapture
     img: /img/projects/blue.png
   - name: Indoor Tracking
     desc: Tracking of people through time with image processing
