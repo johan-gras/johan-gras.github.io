@@ -21,7 +21,7 @@ A GUI application on a remote computer **let you observe the motion in real time
 
 **Project description:** displaying on a remote computer, the real-time position and motion of the Gumstix controller.
 
-**Functional challenges:** blabla
+**Functional challenges:**
 - **Recover accelerometer data** from the registers in an optimal way.
 
 - **Compute the position of the controller** from noisy accelerations data.
@@ -40,9 +40,14 @@ A GUI application on a remote computer **let you observe the motion in real time
 	</figure>
 </div>
 
-<p></p>
-
 ## Technical choices and implementation
+
+### Recovering accelerometer data
+
+**Accelerometer data are saved in specific register, thus we need to recover them from the [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) communication bus.**
+Functions from the manufacturer are already available to do this job, but the code is large, complex and with multiple dependencies.
+Therefore, I've significantly **reduced the code** to do exactly what we needed and **speed up the performance**.
+
 
 ### Communication
 
