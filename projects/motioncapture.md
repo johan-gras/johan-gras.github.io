@@ -23,9 +23,13 @@ A GUI application on a remote computer **let you observe the motion in real time
 
 **Functional challenges:** blabla
 - *Recover accelerometer data* from the registers in an optimal way.
+
 - *Compute the position of the controller* from noisy accelerations data.
+
 - *Guarantee real-time constraints* with a minimum of missed deadlines.
+
 - *Communication* between the system and the computer with an ad hoc wifi.
+
 - *Graphic display* of the system position and motion.
 
 
