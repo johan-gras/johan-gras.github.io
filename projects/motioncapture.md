@@ -64,8 +64,14 @@ To compute the position from acceleration, one can take the mathematical relatio
 
 First, the acceleration signal is not continuous but discretized.
 Second, data are noisy in many ways due to the sensor imperfection.
-Therefore, positions that we could obtain would be horrible.
-Different techniques are applied to partially correct existing incertitudes.
+Thus, positions calculated from this data would be inaccurate.
+Different techniques are applied to partially correct existing incertitudes:
+
+- [Trapezoidal rule](https://en.wikipedia.org/wiki/Trapezoidal_rule) for integrals: reduce integration error on discrete values.
+- [Sensor calibration](https://learn.adafruit.com/calibrating-sensors/why-calibrate): reduce the measurement bias.
+- [Low pass filter](https://en.wikipedia.org/wiki/Low-pass_filter) onto the acceleration signal: help to reduce the mechanical and electrical noise of the accelerometer.
+- [Window](https://en.wikipedia.org/wiki/Window_function) filtering: ignore acceleration values near zero to annihilate noise during stationary periods.
+- Motion verification: force the estimated speed to zero if acceleration is null for long enough.
 
 
 ### Communication
