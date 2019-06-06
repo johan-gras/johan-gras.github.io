@@ -115,6 +115,6 @@ In short *the algorithm look at the proximity of the chose region on the last fr
 	  <img src="/img/projects/indoortracking/tracking1.png" alt="Tracking 1"/>
 	  <img src="/img/projects/indoortracking/tracking2.png" alt="Tracking 2"/>
 	  <img src="/img/projects/indoortracking/tracking3.png" alt="Tracking 3"/>
-	  <figcaption>Limits of the tracking system. Here, the algorithm eventually loses track of the good region. Hopefully, some frames latter the algorithm got back to track with the help of the statistics comparison between conflicting region.</figcaption>
+	  <figcaption>**Limits of the tracking system.** Here, the algorithm eventually loses track of the good region (image 2). Hopefully, some frames latter (image 3) the algorithm got back to track with the help of the statistics comparison between conflicting region.</figcaption>
 	</figure>
 </div>
