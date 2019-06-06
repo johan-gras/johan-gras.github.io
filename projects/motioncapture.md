@@ -7,7 +7,7 @@ bigimg: /img/projects/motioncapture/bigimage.jpg
 
 **[Motion Capture](https://github.com/johan-gras/Motion-Capture) is an on-board computing project for motion capture using accelerometer data.**
 The source code is written in C and is compiled for a [Gumxtix controller](https://www.gumstix.com/).
-A GUI application on a remote computer **let you observe the motion in real time**.
+A GUI application on a remote computer let you observe the motion in real time.
 
 <div style="text-align: center;">
 	<figure>
@@ -24,7 +24,7 @@ A GUI application on a remote computer **let you observe the motion in real time
 **Functional challenges:**
 - **Recover accelerometer data** from the registers in an optimal way.
 
-- **Compute the position of the controller** from noisy accelerations data.
+- **Compute the position** of the controller from noisy accelerations data.
 
 - **Guarantee real-time constraints** with a minimum of missed deadlines.
 
@@ -71,15 +71,12 @@ Thus, positions calculated from this data would be inaccurate.
 - [Trapezoidal rule](https://en.wikipedia.org/wiki/Trapezoidal_rule) for integrals: reduce integration error on discrete values.
 - [Sensor calibration](https://learn.adafruit.com/calibrating-sensors/why-calibrate): reduce the measurement bias.
 - [Low pass filter](https://en.wikipedia.org/wiki/Low-pass_filter) onto the acceleration signal: help to reduce the mechanical and electrical noise of the accelerometer.
-- [Window](https://en.wikipedia.org/wiki/Window_function) filtering: ignore acceleration values near zero to annihilate noise during stationary periods.
+- [Window filtering](https://en.wikipedia.org/wiki/Window_function): ignore acceleration values near zero to annihilate noise during stationary periods.
 - Motion verification: force the estimated speed to zero if acceleration is null for long enough.
 
+### Real-time constraint (task period)
 
 ### Communication
-
-### From acceleration to position
-
-### Real-time constraint (task period)
 
 ### Desktop GUI
 
