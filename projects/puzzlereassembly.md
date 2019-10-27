@@ -1,7 +1,6 @@
 ---
 layout: page
-title: BigCookingData
+title: Puzzle Reassembly
 subtitle: Work in progress...
 bigimg: /img/banners/mixed-deepblue.png
 ---
-<--!Subtitle: A delicious...-->

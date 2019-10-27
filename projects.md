@@ -19,10 +19,17 @@ project-list:
   
   - name: AI algorithms
     desc: A collection of Artificial Intelligence algorithms
-    github: https://github.com/johan-gras/Puzzle-Reassembly
-    url: /projects/puzzlereassembly
-    website: /projects/puzzlereassembly
+    github: https://github.com/johan-gras/AI-Algorithms
+    url: /projects/aialgorithms
+    website: /projects/aialgorithms
     img: /img/projects/blue.png
+  
+  - name: Indoor Tracking
+    desc: Tracking of people through time with image processing
+    github: https://github.com/johan-gras/Indoor-Tracking
+    url: /projects/indoortracking
+    website: /projects/indoortracking
+    img: /img/projects/indoortracking.png
 
   - name: Motion Capture
     desc: Real-time motion capture using a Gumstix controller
@@ -30,13 +37,6 @@ project-list:
     url: /projects/motioncapture
     website: /projects/motioncapture
     img: /img/projects/blue.png
-
-  - name: Indoor Tracking
-    desc: Tracking of people through time with image processing
-    github: https://github.com/johan-gras/Indoor-Tracking
-    url: /projects/indoortracking
-    website: /projects/indoortracking
-    img: /img/projects/indoortracking.png
 
   - name: Castle Rush
     desc: A multiplayer medieval tower defense
