@@ -16,6 +16,13 @@ project-list:
     url: /projects/bigcookingdata
     website: /projects/bigcookingdata
     img: /img/projects/bigcookingdata.png
+  
+  - name: AI algorithms
+    desc: A collection of Artificial Intelligence algorithms
+    github: https://github.com/johan-gras/Puzzle-Reassembly
+    url: /projects/puzzlereassembly
+    website: /projects/puzzlereassembly
+    img: /img/projects/blue.png
 
   - name: Motion Capture
     desc: Real-time motion capture using a Gumstix controller
