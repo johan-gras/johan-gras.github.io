@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Motion Capture
-subtitle: Frankly idk right now :)
+subtitle: [Insert a subtitle here]
 bigimg: /img/projects/motioncapture/bigimage.jpg
 ---
 

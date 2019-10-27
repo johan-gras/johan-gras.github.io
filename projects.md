@@ -47,6 +47,6 @@ project-list:
 ---
 
 This is a collection of some personal projects I've worked on that are easily viewable online. Anything that is not browser-friendly will not make the cut :( 
-<--!Trouver une autre phrase-->
+<---! Trouver une autre phrase -->
 
 {% include list-circles.html items=page.project-list %}
