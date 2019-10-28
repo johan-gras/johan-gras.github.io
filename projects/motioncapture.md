@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Motion Capture
-subtitle: [Insert a subtitle here]
+subtitle: The next Wiimote
 bigimg: /img/projects/motioncapture/bigimage.jpg
 ---
 
@@ -74,10 +74,10 @@ Thus, positions calculated from this data would be inaccurate.
 - [Window filtering](https://en.wikipedia.org/wiki/Window_function): ignore acceleration values near zero to annihilate noise during stationary periods.
 - Motion verification: force the estimated speed to zero if acceleration is null for long enough.
 
-### Real-time constraint (task period)
+[](### Real-time constraint task period
 
 ### Communication
 
 ### Desktop GUI
 
-## Results and performances
+## Results and performances)

@@ -23,7 +23,7 @@ description: My portfolio
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "index"
+  About Me: ""
   Projects: "projects"
   Contact: "contact"
 
