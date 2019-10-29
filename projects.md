@@ -36,7 +36,7 @@ project-list:
     github: https://github.com/johan-gras/Motion-Capture
     url: /projects/motioncapture
     website: /projects/motioncapture
-    img: /img/projects/motioncapture.png
+    img: /img/projects/motioncapture.jpg
 
   - name: Castle Rush
     desc: A multiplayer medieval tower defense
@@ -46,7 +46,8 @@ project-list:
     img: /img/projects/castlerush.png
 ---
 
+<!--
 This is a collection of some personal projects I've worked on that are easily viewable online. Anything that is not browser-friendly will not make the cut :( 
-<---! Trouver une autre phrase -->
+ Trouver une autre phrase -->
 
 {% include list-circles.html items=page.project-list %}
