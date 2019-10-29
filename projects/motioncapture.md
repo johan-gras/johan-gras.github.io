@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Motion Capture
-subtitle: The next Wiimote
+subtitle: The next Wiimote ;)
 bigimg: /img/projects/motioncapture/bigimage.jpg
 ---
 
@@ -44,9 +44,9 @@ A GUI application on a remote computer lets you observe the motion in real time.
 
 ## Recovering accelerometer data
 
-**Accelerometer data are saved in specific register**, thus we need to recover them from the [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) communication bus.
+**Accelerometer data are saved in a specific register**, thus we need to recover them from the [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) communication bus.
 Functions from the manufacturer are already available to do this job, but the code is large, complex and with multiple dependencies.
-Therefore, I've significantly **reduced the code** to do exactly what we needed and **speed up the performance**.
+Therefore, I've significantly **reduced the code** to do exactly what is needed and **speed up the performance by a factor of 1.5**.
 
 ## Computing the position
 
@@ -69,12 +69,12 @@ Thus, positions calculated from this data would be inaccurate.
 **Different techniques are applied to partially correct existing incertitudes**:
 
 - [Trapezoidal rule](https://en.wikipedia.org/wiki/Trapezoidal_rule) for integrals: reduce integration error on discrete values.
-- [Sensor calibration](https://learn.adafruit.com/calibrating-sensors/why-calibrate): reduce the measurement bias.
+- [Sensor calibration](https://learn.adafruit.com/calibrating-sensors/why-calibrate): reduce measurement bias.
 - [Low pass filter](https://en.wikipedia.org/wiki/Low-pass_filter) onto the acceleration signal: help to reduce the mechanical and electrical noise of the accelerometer.
 - [Window filtering](https://en.wikipedia.org/wiki/Window_function): ignore acceleration values near zero to annihilate noise during stationary periods.
 - Motion verification: force the estimated speed to zero if acceleration is null for long enough.
 
-<---!
+<!---
 ### Real-time constraint task period
 
 ### Communication
