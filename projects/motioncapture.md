@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Motion Capture
-subtitle: The next Wiimote ;)
+subtitle: Your next Wiimote ;)
 bigimg: /img/projects/motioncapture/bigimage.jpg
 ---
 
@@ -46,7 +46,7 @@ A GUI application on a remote computer lets you observe the motion in real time.
 
 **Accelerometer data are saved in a specific register**, thus we need to recover them from the [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) communication bus.
 Functions from the manufacturer are already available to do this job, but the code is large, complex and with multiple dependencies.
-Therefore, I've significantly **reduced the code** to do exactly what is needed and **speed up the performance by a factor of 1.5**.
+Therefore, I've significantly reduced the code to gain a **speedup in performance of 1.5**.
 
 ## Computing the position
 
