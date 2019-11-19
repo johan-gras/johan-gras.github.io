@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Puzzle Reassembly
-subtitle: Work in progress...
+subtitle: Blog article in progress...
 bigimg: /img/banners/mixed-deepblue.png
 ---

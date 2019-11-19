@@ -1,6 +1,6 @@
 ---
 layout: page
 title: AI algorithms
-subtitle: Work in progress...
+subtitle: Blog article in progress...
 bigimg: /img/banners/mixed-deepblue.png
 ---
