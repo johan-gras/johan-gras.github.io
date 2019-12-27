@@ -5,7 +5,7 @@ subtitle: A tasty project.
 bigimg: /img/projects/bigcookingdata/bigimage.png
 ---
 
-**[BigCookingData](https://github.com/johan-gras/Indoor-Tracking) is a full-stack data science project**.
+**[BigCooking](https://github.com/johan-gras/Big-Cooking-Engine) [Data](https://github.com/johan-gras/Big-Cooking-Mining) is a full-stack data science project**.
 *It features a food companion app that recommends a new recipe each and every day based on your taste*.
 This application has been built from scratch without any structured data available for this purpose.
 
