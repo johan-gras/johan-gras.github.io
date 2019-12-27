@@ -2,7 +2,7 @@
 layout: page
 title: BigCookingData
 subtitle: A tasty project.
-bigimg: /img/projects/bigcookingdata/bigimagenew.png
+bigimg: /img/projects/bigcookingdata/bigimagenew.jpg
 ---
 
 **[BigCookingData](https://github.com/johan-gras/Indoor-Tracking) is a full-stack data science project**.
