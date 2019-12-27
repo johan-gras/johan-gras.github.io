@@ -12,7 +12,7 @@ This application has been built from scratch without any structured data availab
 <div style="text-align: center;">
 	<figure>
 	  <img src="/img/projects/bigcookingdata/cluster_analysis.jpg" alt="Visualization of the cluster of receipes created."/>
-	  <figcaption>Visualization of the cluster of receipes created.</figcaption>
+	  <figcaption>Visualization using Principal Component Analysis of the cluster of receipes created.</figcaption>
 	</figure>
 </div>
 
@@ -29,6 +29,3 @@ This application has been built from scratch without any structured data availab
 	  <figcaption>The flow of the data.</figcaption>
 	</figure>
 </div>
-
-Key technologies used in this project: Python,Java,Fast.AI,Scrapy,Scikit-learn,Neo4J,JSF,Tomcat,NLTK
-Key features of my work include (but are not limited to):
