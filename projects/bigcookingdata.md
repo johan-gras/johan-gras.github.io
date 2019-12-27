@@ -26,6 +26,5 @@ This application has been built from scratch without any structured data availab
 <div style="text-align: center;">
 	<figure>
 	  <img src="/img/projects/bigcookingdata/dataflow.png" alt="The flow of the data."/>
-	  <figcaption>The flow of the data.</figcaption>
 	</figure>
 </div>

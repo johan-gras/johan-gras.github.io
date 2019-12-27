@@ -12,7 +12,8 @@ project-list:
 
   - name: Big Cooking Data
     desc: Recommender System, Data Analysis, Food
-    github: http://github.com/johan-gras/
+    github: https://github.com/johan-gras/Big-Cooking-Engine
+    github: https://github.com/johan-gras/Big-Cooking-Mining
     url: /projects/bigcookingdata
     website: /projects/bigcookingdata
     img: /img/projects/bigcookingdata.png
