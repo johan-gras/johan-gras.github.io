@@ -6,7 +6,7 @@ bigimg: /img/projects/bigcookingdata/bigimage2.png
 ---
 
 **[BigCookingData](https://github.com/johan-gras/Indoor-Tracking) is a full-stack data science project**.
-It's a food companion app that recommends you a new recipe each and every day based on your taste.
+It features a food companion app that recommends a new recipe each and every day based on your taste.
 This application has been built from scratch without any structured data available for this purpose.
 Thus, a big chunk of the project was dedicaced to working around data.
 
