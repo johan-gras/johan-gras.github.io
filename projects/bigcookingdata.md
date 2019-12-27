@@ -2,12 +2,14 @@
 layout: page
 title: BigCookingData
 subtitle: A tasty project.
-bigimg: /img/projects/bigcookingdata/bigimage2.png
+bigimg: /img/projects/bigcookingdata/data_fact.png
 ---
 
 **[BigCookingData](https://github.com/johan-gras/Indoor-Tracking) is a full-stack data science project**.
+It's a food companion app that recommends you a new recipe each and every day based on your taste.
+This application has been built from scratch without any structured data available for this purpose.
+Thus, a big chunk of the project was dedicaced to working around data.
 
-I've:
 - **Scraped** over 100 000 cooking recipes from the web.
 - **Pre-processed** highly inconsistent data using NLP techniques.
 - **Created** new data by identifying cluster of data using kmeans, PCA and NLP...
