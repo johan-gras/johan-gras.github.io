@@ -2,7 +2,7 @@
 layout: page
 title: BigCookingData
 subtitle: A tasty project.
-bigimg: /img/projects/bigcookingdata/bigimage2.png
+bigimg: /img/projects/bigcookingdata/bigimage.png
 ---
 
 **[BigCookingData](https://github.com/johan-gras/Indoor-Tracking) is a full-stack data science project**.
@@ -19,7 +19,7 @@ Thus, a big chunk of the project was dedicaced to working around data.
 
 <div style="text-align: center;">
 	<figure>
-	  <img src="/img/projects/bigcookingdata/cluster_analysis.png" alt="Visualization of the cluster of receipes created."/>
+	  <img src="/img/projects/bigcookingdata/cluster_analysis.jpg" alt="Visualization of the cluster of receipes created."/>
 	  <figcaption>Visualization of the cluster of receipes created.</figcaption>
 	</figure>
 </div>
