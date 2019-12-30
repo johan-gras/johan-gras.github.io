@@ -4,14 +4,14 @@ title: Projects
 subtitle: What I like to build
 project-list:
   - name: Puzzle Reassembly
-    desc: My research project dealing with AlphaZero and GAN to solve jigswa puzzle!
+    desc: My research project dealing with AlphaZero and GAN to solve jigsaw puzzle!
     github: https://github.com/johan-gras/Puzzle-Reassembly
     url: /projects/puzzlereassembly
     website: /projects/puzzlereassembly
-    img: /img/projects/blue.png
+    img: /img/projects/SVHN_weird.png
 
   - name: Big Cooking Data
-    desc: Recommender System, Data Analysis, Food
+    desc: Recommender System, Data Analysis and Food :p
     github: https://github.com/johan-gras/Big-Cooking-Engine
     url: /projects/bigcookingdata
     website: /projects/bigcookingdata
