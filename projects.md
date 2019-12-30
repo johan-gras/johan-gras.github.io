@@ -22,7 +22,7 @@ project-list:
     github: https://github.com/johan-gras/AI-Algorithms
     url: /projects/aialgorithms
     website: /projects/aialgorithms
-    img: /img/projects/blue.png
+    img: /img/projects/aialgorithms.png
   
   - name: Indoor Tracking
     desc: Tracking of people through time with image processing
