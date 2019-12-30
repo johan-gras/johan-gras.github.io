@@ -4,7 +4,7 @@ title: Projects
 subtitle: What I like to build
 project-list:
   - name: Puzzle Reassembly
-    desc: Research project, Model-Based Reinforcement Learning
+    desc: Research project: Reinforcement Learning, AlphaZero and GAN!
     github: https://github.com/johan-gras/Puzzle-Reassembly
     url: /projects/puzzlereassembly
     website: /projects/puzzlereassembly
