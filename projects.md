@@ -18,7 +18,7 @@ project-list:
     img: /img/projects/bigcookingdata.png
   
   - name: AI algorithms
-    desc: A collection of Artificial Intelligence algorithms
+    desc: A collection of Artificial Intelligence implementations
     github: https://github.com/johan-gras/AI-Algorithms
     url: /projects/aialgorithms
     website: /projects/aialgorithms
