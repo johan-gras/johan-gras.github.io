@@ -18,7 +18,7 @@ project-list:
     img: /img/projects/bigcookingdata.png
   
   - name: AI algorithms
-    desc: Muzero, DQN, Alpha-Beta, Expectation-Maximisation,...
+    desc: MuZero, DQN, Alpha-Beta, Expectation-Maximisation and more...
     github: https://github.com/johan-gras/AI-Algorithms
     url: /projects/aialgorithms
     website: /projects/aialgorithms
