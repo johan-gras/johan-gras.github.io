@@ -18,7 +18,7 @@ project-list:
     img: /img/projects/bigcookingdata.png
   
   - name: AI algorithms
-    desc: A collection of Artificial Intelligence implementations
+    desc: Muzero, DQN, Alpha-Beta, Expectation-Maximisation,...
     github: https://github.com/johan-gras/AI-Algorithms
     url: /projects/aialgorithms
     website: /projects/aialgorithms
