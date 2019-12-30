@@ -4,7 +4,7 @@ title: Projects
 subtitle: What I like to build
 project-list:
   - name: Puzzle Reassembly
-    desc: Research project: Reinforcement Learning, AlphaZero and GAN!
+    desc: My research project dealing with AlphaZero and GAN to solve jigswa puzzle!
     github: https://github.com/johan-gras/Puzzle-Reassembly
     url: /projects/puzzlereassembly
     website: /projects/puzzlereassembly

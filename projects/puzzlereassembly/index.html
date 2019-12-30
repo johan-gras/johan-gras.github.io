@@ -23,8 +23,8 @@ layout: default
 <figcaption style="text-align: left;">
   From a set of fragments, we are looking to solve their best reassembly by assigning each fragment to its optimal position.
   Our method is a model-based reinforcement learning technique looking to find the optimal policy in a synthetic MDP.
-  We use two Neural Networks and a Monte Carlos Tree Search.
-  Neural Networks guides the search onto promising moves by appromimating a value and policy function, while the result of the search allows to improves their predictions.<br/>
+  We use two Neural Networks (value/policy approximators) and a Monte Carlos Tree Search.
+  Neural Networks guides the search onto promising moves, while the result of the search allows to improves their predictions.<br/>
   The figure is composed of reassemblies coming from the MNIST SVHN dataset.
   The top row has been generated through our method (specifically selected pathological cases) and the bottom row is built from the ground truth.<br/>
 </figcaption>
