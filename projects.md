@@ -8,7 +8,7 @@ project-list:
     github: https://github.com/johan-gras/Puzzle-Reassembly
     url: /projects/puzzlereassembly
     website: /projects/puzzlereassembly
-    img: /img/projects/SVHN_weird.png
+    img: /img/projects/puzzlereassembly.png
 
   - name: Big Cooking Data
     desc: Recommender System, Data Analysis and Food :p
