@@ -12,7 +12,7 @@ This application has been built from scratch without any structured data availab
 <div style="text-align: center;">
 	<figure>
 	  <img src="/img/projects/bigcookingdata/pca.png" alt="Visualization of the cluster of receipes created."/>
-	  <figcaption>Visualization using Principal Component Analysis over clusters of receipes created.</figcaption>
+	  <figcaption>Visualizing clusters of receipes created using Principal Component Analysis.</figcaption>
 	</figure>
 </div>
 
