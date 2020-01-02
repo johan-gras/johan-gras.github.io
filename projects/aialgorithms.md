@@ -8,7 +8,7 @@ bigimg: /img/projects/aialgorithms/bigimage.png
 **I'm deeply excited about building AI algorithms!**
 
 You can check some of my open source implementations right there:
-- **[MuZero](https://github.com/johan-gras/MuZero)**: **It's the new sister of AlphaZero, who planned moves using a model of the environment learned in an unsupervised manner.**
+- **[MuZero](https://github.com/johan-gras/MuZero)**: *The new sister of AlphaZero that is planning moves using a model of the environment, learned in an unsupervised manner.*
 - **[AlphaRL]()**: *My attempt to build a Reinforcement Learning framework from scratch!*
 - **[Expectation-Maximisation](https://github.com/johan-gras/Machine-Learning-Algorithms/tree/master/Expectation_Maximisation)**: *I'll keep it short. K-means + probability ≈ EM.*
 - **[Kohonen](https://github.com/johan-gras/Machine-Learning-Algorithms/tree/master/Kohonen)**: *It's a self-organizing map: a kind of artificial neural network trained in a unsupervised way.*

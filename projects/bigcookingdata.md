@@ -11,7 +11,7 @@ This application has been built from scratch without any structured data availab
 
 <div style="text-align: center;">
 	<figure>
-	  <img src="/img/projects/bigcookingdata/cluster_analysis.jpg" alt="Visualization of the cluster of receipes created."/>
+	  <img src="/img/projects/bigcookingdata/pca.jpg" alt="Visualization of the cluster of receipes created."/>
 	  <figcaption>Visualization using Principal Component Analysis over clusters of receipes created.</figcaption>
 	</figure>
 </div>
@@ -21,3 +21,10 @@ This application has been built from scratch without any structured data availab
 - **Created** new data by identifying recipe clusters using kmeans, PCA and NLP.
 - **Developed** a recommender system for recipes based on user-preferences and ingredient proximity.
 - **Built** a computer vision app that automatically register shopped food items.
+
+<div style="text-align: center;">
+	<figure>
+	  <img src="/img/projects/bigcookingdata/app.png" alt="Receipes recommended by our web-app."/>
+	  <figcaption>Receipes recommended by our web-app.</figcaption>
+	</figure>
+</div>
