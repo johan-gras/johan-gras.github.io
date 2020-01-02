@@ -18,8 +18,7 @@ This application has been built from scratch without any structured data availab
 
 - **Scraped** over 100 000 cooking recipes from the web.
 - **Pre-processed** highly inconsistent data using NLP techniques.
-- **Created** new data by identifying cluster of data using kmeans, PCA and NLP.
-- **Clustered** data using un-supervised ML techniques (kmeans and PCA).
+- **Created** new data by identifying recipe clusters using kmeans, PCA and NLP.
 - **Developed** a recommender system for recipes based on user-preferences and ingredient proximity.
 - **Built** a computer vision app that automatically register shopped food items.
 
