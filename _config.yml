@@ -24,6 +24,7 @@ description: My portfolio
 # List of links in the navigation bar
 navbar-links:
   About Me: ""
+  Resume: "CV_Johan_Gras.pdf"
   Projects: "projects"
   Contact: "contact"
 
