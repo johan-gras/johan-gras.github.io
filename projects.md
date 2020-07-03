@@ -23,6 +23,12 @@ project-list:
     url: /projects/aialgorithms
     website: /projects/aialgorithms
     img: /img/projects/aialgorithms.png
+
+  - name: Serverlobby.io
+    desc: A website that helps game server owners to be promoted
+    url: https://serverlobby.io/en
+    website: https://serverlobby.io/en
+    img: /img/projects/indoortracking.png
   
   - name: Indoor Tracking
     desc: Tracking of people through time with image processing
