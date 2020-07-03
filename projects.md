@@ -28,7 +28,7 @@ project-list:
     desc: A website that helps game server owners to be promoted
     url: https://serverlobby.io/en
     website: https://serverlobby.io/en
-    img: /img/projects/serverlobby.png
+    img: /img/projects/serverlobby2.png
   
   - name: Indoor Tracking
     desc: Tracking of people through time with image processing
